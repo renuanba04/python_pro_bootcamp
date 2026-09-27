@@ -45,6 +45,7 @@ while not game_over:
             game_over = True
 
             print(f"***********************IT WAS {chosen_word}! YOU LOSE**********************")
+            break
 
     if "_" not in display:
         game_over = True
