@@ -50,7 +50,7 @@ while not game_over:
         game_over = True
         print("****************************YOU WIN****************************")
 
-    print(stages[lives])
+    print(hangman_art.stages[lives])
 
     print(f"****************************{lives}/6 LIVES LEFT****************************")
 
