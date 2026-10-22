@@ -21,6 +21,11 @@ for key in bids:
         max_bid = bids[key]
         max_bidder_name = key
 
+# another way to compare bids
+winner = max(bids, key=bids.get, default=None)
+print(f"The winner is {winner} with a bid of ${bids[winner]}")
+
+
 print(f"The winner is {max_bidder_name} with a bid of ${max_bid}")
 
 
